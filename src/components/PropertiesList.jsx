@@ -5,7 +5,7 @@ import Size from "./svg/Size";
 export default function PropertiesList() {
   return (
     <div>
-      <div className="w-full bg-[#F5F5F5] mt-[100px]">
+      <div className="w-full bg-[#F5F5F5] mt-[100px] pb-[81px]">
         <div className="flex flex-wrap mx-auto justify-between py-[61px] px-[50px] w-5/6 ">
           <div>
             <p className="text-gray-900 font-inter capitalize text-[36px] leading-[64px] not-italic font-extrabold">
