@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <header className="text-gray-600 body-font  ">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className="container mx-auto w-3/4 flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <img src="/assets/logo1.png" />
           </a>
@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
       </header>
       <div className="w-full flex justify-center">
-        <hr className="w-5/6 " />
+        <hr className="w-3/4 " />
       </div>
     </div>
   );

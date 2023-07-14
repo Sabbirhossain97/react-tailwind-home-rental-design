@@ -6,7 +6,7 @@ export default function PropertiesList() {
   return (
     <div>
       <div className="w-full bg-[#F5F5F5] mt-[100px] pb-[81px]">
-        <div className="flex flex-wrap mx-auto justify-between py-[61px] px-[50px] w-5/6 ">
+        <div className="flex flex-wrap mx-auto justify-between py-[61px] px-[50px] w-3/4 ">
           <div>
             <p className="text-gray-900 font-inter capitalize text-[36px] leading-[64px] not-italic font-extrabold">
               {" "}
@@ -19,7 +19,7 @@ export default function PropertiesList() {
           </button>
         </div>
         {/* cards */}
-        <div className=" w-5/6 mx-auto px-[50px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-y-[60px] gap-x-[200px] ">
+        <div className=" w-3/4 mx-auto px-[50px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-y-[60px] gap-x-[100px] ">
           {["image1", "image2", "image3", "image4", "image5", "image6"].map(
             (item, key) => (
               <div

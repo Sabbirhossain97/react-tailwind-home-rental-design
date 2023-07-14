@@ -30,7 +30,7 @@ export default function Testimonial() {
                 </p>
               </div>
             </div>
-            <div className="inline-flex mt-[75px] gap-[12px] ml-2">
+            <div className="inline-flex mt-[45px] gap-[12px] ml-2">
               <img src="assets/testimonial/Ellipse1.png" />
               <img src="assets/testimonial/Ellipse2.png" />
               <img src="assets/testimonial/Ellipse3.png" />
