@@ -7,7 +7,7 @@ import Testimonial from "./components/Testimonial";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Hero />
       <Features/>
       <PropertiesList/>
@@ -15,7 +15,7 @@ function App() {
       <Form/>
       <Testimonial/>
       <Footer/>
-    </>
+    </div>
   );
 }
 

@@ -6,8 +6,8 @@ export default function Content() {
       <div className="w-3/4 mx-auto mt-[110px] ">
         <div className="flex flex-wrap">
           {/* left section */}
-          <div className="flex w-1/2 flex-wrap ">
-            <div className="ml-[50px] relative">
+          <div className="flex w-11/12 mx-auto md:w-1/2 flex-wrap ">
+            <div className="md:ml-[50px] relative">
               <div className="brightness-75">
                 <img src="/assets/content/content-image3.png" />
               </div>
@@ -15,7 +15,7 @@ export default function Content() {
                 Flexible Leases
               </p>
             </div>
-            <div className="ml-[20px] mt-[60px] relative">
+            <div className="md:ml-[20px] mt-[60px] relative">
               <div className="brightness-75">
                 <img src="/assets/content/content-image2.png" />
               </div>
@@ -23,7 +23,7 @@ export default function Content() {
                 7-Day Happiness Guaranteed
               </p>
             </div>
-            <div className="ml-[50px] mt-[20px] relative">
+            <div className=" mt-12 ml-6 md:ml-[50px] md:mt-[20px] relative">
               <div className="brightness-75">
                 <img src="/assets/content/content-image4.png" />
               </div>
@@ -31,7 +31,7 @@ export default function Content() {
                 Monthly House Cleaning
               </p>
             </div>
-            <div className="ml-[20px] mt-[20px] relative">
+            <div className="md:ml-[20px] mt-12 md:mt-[20px] relative">
               <div className="brightness-75">
                 <img src="/assets/content/content-image1.png" />
               </div>
@@ -41,23 +41,24 @@ export default function Content() {
             </div>
           </div>
           {/* right section */}
-          <div className="w-1/2 flex flex-col justify-center items-center  ">
-            <div className="w-3/4 ">
-              {" "}
-              <p className="font-inter text-[40px] not-italic font-extrabold leading-[54px]">
+          <div className=" mx-auto w-11/12 mt-10 md:mt-0 md:w-1/2 flex flex-col justify-center items-center  ">
+            <div className="w-5/6 md:w-3/4 ">
+              <p className="font-inter text-[30px] text-center md:text-left md:text-[40px] not-italic font-extrabold leading-[54px]">
                 Flexibility and options <br />
                 to suit your lifestyle.
               </p>
-              <p className="mt-[16px] font-inter text-[18px] not-italic font-normal leading-[32px]">
+              <p className="mt-[16px] font-inter text-[15px] md:text-[18px] text-center md:text-left not-italic font-normal leading-[32px]">
                 You need it? We got it. We make finding your next <br />
                 home easy, comfortable, and simple. From our <br /> happiness
                 guarantee to our selective roommate <br /> finder option. We
                 provide you the flexibility that you <br />
                 most desire.
               </p>
-              <button className="mt-[40px] w-[200px] bg-[#F4511E] rounded-xl py-[22px] px-[28px] font-inter text-[18px] not-italic font-semibold leading-5 text-center text-white">
-                Search Rooms
-              </button>
+              <div className="flex justify-center md:justify-start">
+                <button className="mt-[40px] w-[150px] md:w-[200px] bg-[#F4511E] rounded-xl py-[17px] md:py-[22px] px-[18px] md:px-[23px] font-inter text-[13px] md:text-[18px] not-italic font-semibold leading-5 text-center text-white">
+                  Search Rooms
+                </button>
+              </div>
             </div>
           </div>
         </div>

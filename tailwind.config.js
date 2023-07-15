@@ -17,7 +17,15 @@ module.exports = {
         "form-wrapper": "0 4px 63px 0 rgba(0,0,0,0.15)",
       },
       backgroundColor: {
-        "testimonial-left": "rgba(244, 81, 30, 0.07)",
+        "testimonial": "rgba(244, 81, 30, 0.07)",
+      },
+      screens: {
+        'sm': "640px",
+        'md': "768px",
+        'lg': "1024px",
+        'xl': "1280px",
+        "2xl": "1536px",
+        "3xl": "1780px",
       },
     },
   },

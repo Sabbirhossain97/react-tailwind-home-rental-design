@@ -5,14 +5,16 @@ export default function Features() {
     <div>
       <div className=" mx-auto w-3/4">
         <div className="mt-24">
-          <p className="ml-12 font-inter capitalize text-[36px] leading-[64px] not-italic font-extrabold">
+          <p className="md:ml-12 font-inter text-center md:text-left capitalize text-[26px] md:text-[36px] leading-[64px] not-italic font-extrabold">
             minimum living cost takes care of everything
           </p>
-          <hr className="bg-[#F4511E] h-[3px] w-1/4 ml-12" />
+          <div >
+            <hr className="bg-[#F4511E] h-[3px] md:w-1/4 md:ml-12 " />
+          </div>
         </div>
         <div className="mt-9 flex flex-wrap xl:flex-nowrap">
           <img src="/assets/features-image.png" />
-          <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 md:space-y-0">
+          <div className=" space-y-8 grid grid-cols-2 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 md:space-y-0">
             {[
               {
                 icon: "dollar",
@@ -45,7 +47,7 @@ export default function Features() {
                 position: "justify-start",
               },
             ].map((item, key) => (
-              <div className={` flex flex-col ${item.position}`} key={key}>
+              <div className={` flex flex-col ${item.position} `} key={key}>
                 <div className="">
                   <img
                     src={`assets/${item.icon}.png`}
@@ -53,7 +55,7 @@ export default function Features() {
                   />
                 </div>
                 <div className="mt-[21px] w-5/6">
-                  <p className=" whitespace-wrap inline-flex  font-inter text-[20px] not-italic font-semibold leading-[35px] capitalize">
+                  <p className=" whitespace-wrap inline-flex  font-inter text-[15px] md:text-[20px] not-italic font-semibold leading-[35px] capitalize">
                     {item.text}
                   </p>
                 </div>
