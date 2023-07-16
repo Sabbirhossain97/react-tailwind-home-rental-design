@@ -71,7 +71,7 @@ export default function Form() {
                     placeholder="Select City"
                     className="indent-5 w-full placeholder:font-inter placeholder:text-[14px] placeholder:font-normal placeholder:leading-7 placeholder:tracking-[0.2px] placeholder:text-[#737373] rounded-md bg-[#F9F9F9] border py-[15px] border-[#E6E6E6]"
                   />
-                  {/* <Dropdown /> */}
+                  <Dropdown />
                 </div>
               </div>
               <div className=" flex flex-col col-span-3 md:col-span-2 xl:col-span-1">
@@ -87,7 +87,7 @@ export default function Form() {
                     placeholder="Select State"
                     className="w-full indent-5 placeholder:font-inter placeholder:text-[14px] placeholder:font-normal placeholder:leading-7 placeholder:tracking-[0.2px] placeholder:text-[#737373] rounded-md bg-[#F9F9F9] border py-[15px] border-[#E6E6E6]"
                   />
-                  {/* <Dropdown /> */}
+                  <Dropdown />
                 </div>
               </div>
               <div className="flex flex-col col-span-3 md:col-span-2 xl:col-span-1">
@@ -103,7 +103,7 @@ export default function Form() {
                     placeholder="Select Room Type"
                     className="w-full indent-5 placeholder:font-inter placeholder:text-[14px] placeholder:font-normal placeholder:leading-7 placeholder:tracking-[0.2px] placeholder:text-[#737373] rounded-md bg-[#F9F9F9] border py-[15px] border-[#E6E6E6]"
                   />
-                  {/* <Dropdown /> */}
+                  <Dropdown />
                 </div>
               </div>
               <div className="flex flex-col col-span-3 md:col-span-2 xl:col-span-1">

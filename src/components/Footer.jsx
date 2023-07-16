@@ -39,14 +39,46 @@ export default function Footer() {
               </p>
             </div>
             <div className=" flex justify-around mt-4 md:mt-0 w-full md:w-3/4 lg:4/5 3xl:w-1/2 ml-0 ">
-              <img src="assets/footer/facebook.png" alt="facebook" className="cursor-pointer"/>
-              <img src="assets/footer/twitter.png" alt="twitter" className="cursor-pointer"/>
-              <img src="assets/footer/linkedin.png" alt="linkedin" className="cursor-pointer"/>
-              <img src="assets/footer/youtube.png" alt="youtube" className="cursor-pointer"/>
-              <img src="assets/footer/instagram.png" alt="instagram" className="cursor-pointer"/>
-              <img src="assets/footer/googleplus.png" alt="google" className="cursor-pointer"/>
-              <img src="assets/footer/pinterest.png" alt="pinterest" className="cursor-pointer"/>
-              <img src="assets/footer/rss.png" alt="rss" className="cursor-pointer"/>
+              <img
+                src="assets/footer/facebook.png"
+                alt="facebook"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/twitter.png"
+                alt="twitter"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/linkedin.png"
+                alt="linkedin"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/youtube.png"
+                alt="youtube"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/instagram.png"
+                alt="instagram"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/googleplus.png"
+                alt="google"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/pinterest.png"
+                alt="pinterest"
+                className="cursor-pointer"
+              />
+              <img
+                src="assets/footer/rss.png"
+                alt="rss"
+                className="cursor-pointer"
+              />
             </div>
           </div>
         </div>
@@ -54,19 +86,19 @@ export default function Footer() {
       <div className=" w-4/6 md:w-/35 lg:w-3/4 mx-auto mt-[80px] mb-[100px]">
         <div className="font-inter flex flex-col lg:flex-row py-[24px] border-t border-gray-200 ">
           <div className="flex flex-col lg:flex-row items-center w-full lg:w-4/6 text-[14px]">
-            <a className=" hover:text-[#F4511E] transition cursor-pointer">
+            <a href="#" className=" hover:text-[#F4511E] transition cursor-pointer">
               ABOUT US
             </a>
-            <a className="mt-2 lg:mt-0 lg:ml-[39px] hover:text-[#F4511E] transition cursor-pointer">
+            <a href="#" className="mt-2 lg:mt-0 lg:ml-[39px] hover:text-[#F4511E] transition cursor-pointer">
               CONTACT US
             </a>
-            <a className="mt-2 lg:mt-0 lg:ml-[34px] hover:text-[#F4511E] transition cursor-pointer">
+            <a href="#" className="mt-2 lg:mt-0 lg:ml-[34px] hover:text-[#F4511E] transition cursor-pointer">
               HELP
             </a>
-            <a className="mt-2 lg:mt-0 lg:ml-[46px] hover:text-[#F4511E] transition cursor-pointer">
+            <a href="#" className="mt-2 lg:mt-0 lg:ml-[46px] hover:text-[#F4511E] transition cursor-pointer">
               PRIVACY POLICY
             </a>
-            <a className="mt-2 lg:mt-0 lg:ml-[29px] hover:text-[#F4511E] transition cursor-pointer">
+            <a href="#" className="mt-2 lg:mt-0 lg:ml-[29px] hover:text-[#F4511E] transition cursor-pointer">
               DISCLAIMER
             </a>
           </div>

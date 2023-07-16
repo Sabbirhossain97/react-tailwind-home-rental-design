@@ -19,7 +19,7 @@ function Hero() {
               <div className="lg:max-w-lg flex justify-center">
                 <img
                   className="object-cover object-center rounded"
-                  alt="hero"
+                  alt="hero-map"
                   src="/assets/map.png"
                 />
               </div>

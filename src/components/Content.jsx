@@ -9,7 +9,10 @@ export default function Content() {
           <div className="flex w-11/12 mx-auto md:w-1/2 flex-wrap ">
             <div className="md:ml-[50px] relative">
               <div className="brightness-75">
-                <img src="/assets/content/content-image3.png" />
+                <img
+                  src="/assets/content/content-image3.png"
+                  alt="content-image1"
+                />
               </div>
               <p className="absolute top-[30px] left-[36px] text-white text-center font-inter text-[24px] not-italic font-semibold leading-5">
                 Flexible Leases
@@ -17,7 +20,10 @@ export default function Content() {
             </div>
             <div className="md:ml-[20px] mt-[60px] relative">
               <div className="brightness-75">
-                <img src="/assets/content/content-image2.png" />
+                <img
+                  src="/assets/content/content-image2.png"
+                  alt="content-image2"
+                />
               </div>
               <p className="absolute top-[30px]  text-white text-center font-inter text-[24px] not-italic font-semibold leading-7">
                 7-Day Happiness Guaranteed
@@ -25,7 +31,10 @@ export default function Content() {
             </div>
             <div className=" mt-12 ml-6 md:ml-[50px] md:mt-[20px] relative">
               <div className="brightness-75">
-                <img src="/assets/content/content-image4.png" />
+                <img
+                  src="/assets/content/content-image4.png"
+                  alt="content-image3"
+                />
               </div>
               <p className="absolute top-[30px]  text-white text-center font-inter text-[24px] not-italic font-semibold leading-7">
                 Monthly House Cleaning
@@ -33,7 +42,10 @@ export default function Content() {
             </div>
             <div className="md:ml-[20px] mt-12 md:mt-[20px] relative">
               <div className="brightness-75">
-                <img src="/assets/content/content-image1.png" />
+                <img
+                  src="/assets/content/content-image1.png"
+                  alt="content-image4"
+                />
               </div>
               <p className="absolute top-[30px]  text-white text-center font-inter text-[24px] not-italic font-semibold leading-7">
                 Choose Your Own Roommate

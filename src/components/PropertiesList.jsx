@@ -76,7 +76,7 @@ export default function PropertiesList() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center justify-center p-[18px] md:p-[25px] bg-[#F3F3F3] ml-0 leading-tight text-[#BDBDBD] border border-gray-300 rounded-l-lg  "
+                  className="hover:cursor-not-allowed flex items-center justify-center p-[18px] md:p-[25px] bg-[#F3F3F3] ml-0 leading-tight text-[#BDBDBD] border border-gray-300 rounded-l-lg  "
                 >
                   First
                 </a>
@@ -84,7 +84,7 @@ export default function PropertiesList() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center justify-center p-[18px] md:p-[25px]  leading-tight text-[#F4511E] bg-white border border-gray-300 "
+                  className="hover:bg-[#F4511E] transition hover:text-white flex items-center justify-center p-[18px] md:p-[25px]  leading-tight text-[#F4511E] bg-white border border-gray-300 "
                 >
                   1
                 </a>
@@ -100,7 +100,7 @@ export default function PropertiesList() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center justify-center p-[18px] md:p-[25px] leading-tight text-[#F4511E] bg-white border border-gray-300 "
+                  className="hover:bg-[#F4511E] transition hover:text-white flex items-center justify-center p-[18px] md:p-[25px] leading-tight text-[#F4511E] bg-white border border-gray-300 "
                 >
                   3
                 </a>
@@ -109,7 +109,7 @@ export default function PropertiesList() {
               <li>
                 <a
                   href="#"
-                  className="flex items-center justify-center p-[18px] md:p-[25px] text-[#F4511E] leading-tight  bg-white border border-gray-300 rounded-r-lg "
+                  className="hover:bg-[#F4511E] transition hover:text-white flex items-center justify-center p-[18px] md:p-[25px] text-[#F4511E] leading-tight  bg-white border border-gray-300 rounded-r-lg "
                 >
                   Next
                 </a>
