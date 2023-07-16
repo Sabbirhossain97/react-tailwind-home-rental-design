@@ -55,7 +55,7 @@ export default function Content() {
                 most desire.
               </p>
               <div className="flex justify-center md:justify-start">
-                <button className="mt-[40px] w-[150px] md:w-[200px] bg-[#F4511E] rounded-xl py-[17px] md:py-[22px] px-[18px] md:px-[23px] font-inter text-[13px] md:text-[18px] not-italic font-semibold leading-5 text-center text-white">
+                <button className="transition mt-[40px] w-[150px] md:w-[200px] bg-[#F4511E] hover:bg-[#dd4415] rounded-xl py-[17px] md:py-[22px] px-[18px] md:px-[23px] font-inter text-[13px] md:text-[18px] not-italic font-semibold leading-5 text-center text-white">
                   Search Rooms
                 </button>
               </div>

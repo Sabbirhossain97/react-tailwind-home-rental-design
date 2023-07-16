@@ -8,12 +8,12 @@ export default function Features() {
           <p className="md:ml-12 font-inter text-center md:text-left capitalize text-[26px] md:text-[36px] leading-[64px] not-italic font-extrabold">
             minimum living cost takes care of everything
           </p>
-          <div >
+          <div>
             <hr className="bg-[#F4511E] h-[3px] md:w-1/4 md:ml-12 " />
           </div>
         </div>
         <div className="mt-9 flex flex-wrap xl:flex-nowrap">
-          <img src="/assets/features-image.png" />
+          <img src="/assets/features/features-image.png" />
           <div className=" space-y-8 grid grid-cols-2 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-10 md:space-y-0">
             {[
               {
@@ -50,7 +50,7 @@ export default function Features() {
               <div className={` flex flex-col ${item.position} `} key={key}>
                 <div className="">
                   <img
-                    src={`assets/${item.icon}.png`}
+                    src={`assets/features/${item.icon}.png`}
                     className="shadow-features-icon p-4 rounded-[10px]"
                   />
                 </div>

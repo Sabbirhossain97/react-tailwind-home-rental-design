@@ -9,7 +9,7 @@ export default function Quotation() {
         height="60"
         viewBox="0 0 71 60"
         fill="none"
-        className="absolute top-[98px] left-[80px]"
+        className="absolute left-2 top-[100px] md:top-[100px] md:left-[75px]"
       >
         <g opacity="0.3" clip-path="url(#clip0_2_414)">
           <path

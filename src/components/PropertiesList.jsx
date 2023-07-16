@@ -13,10 +13,10 @@ export default function PropertiesList() {
               list of properties
             </p>
             <div className="flex justify-center md:justify-start">
-              <hr className="bg-[#F4511E] h-[3px] w-[80px] flex justify-center " />
+              <hr className="bg-[#F4511E]  h-[3px] w-[80px] flex justify-center " />
             </div>
           </div>
-          <button className="mt-6 md:mt-0 shadow-properties-button rounded-[5px] px-[25px] py-[15px] md:px-[33px] md:py-[22px] bg-[#F4511E] text-center text-[16px] not-italic font-medium leading-normal text-white">
+          <button className="transition mt-6 md:mt-0 shadow-properties-button rounded-[5px] px-[25px] py-[15px] md:px-[33px] md:py-[22px] bg-[#F4511E] hover:bg-[#dd4415] text-center text-[16px] not-italic font-medium leading-normal text-white">
             View All Property
           </button>
         </div>
@@ -26,7 +26,7 @@ export default function PropertiesList() {
             (item, key) => (
               <div
                 key={key}
-                className="max-w-sm bg-white  border-gray-200 rounded-[27px] shadow "
+                className="cursor-pointer max-w-sm bg-white  border-gray-200 rounded-[27px] shadow "
               >
                 <img
                   className="w-full"

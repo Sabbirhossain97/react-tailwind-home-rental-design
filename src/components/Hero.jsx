@@ -4,12 +4,12 @@ import { AiOutlineSearch } from "react-icons/ai";
 function Hero() {
   return (
     <div>
-      <div className="bg-hero-image bg-no-repeat bg-cover bg-center brightness-90">
+      <div className="bg-hero-image bg-no-repeat bg-cover bg-center brightness-100">
         <Navbar />
         <section className="text-gray-600 body-font ">
           <div className="container mx-auto flex px-5 w-3/4 py-24 md:flex-row flex-col md:flex-wrap lg:flex-nowrap justify-center items-center">
-            <div className=" lg:flex-grow md:w-full md:text-center lg:pr-24 md:pr-16 flex flex-col md:items-start mb-16 md:mb-0 items-center text-center">
-              <p className="title-font text-white text-[36px] md:text-[52px] leading-[60px] md:leading-[70px] mb-4 font-bold font-inter ">
+            <div className="lg:flex-grow md:w-full md:text-center lg:pr-24 md:pr-16 flex flex-col md:items-start mb-16 md:mb-0 items-center ">
+              <p className="text-center md:text-left title-font text-white text-[36px] md:text-[52px] leading-[60px] md:leading-[70px] mb-4 font-bold font-inter ">
                 The Most Affordable <br /> Place To Stay In The <br /> San
                 Francisco Bay Area
                 <br className="hidden lg:inline-block" />

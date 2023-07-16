@@ -165,7 +165,7 @@ export default function Form() {
                   </div>
                 </div>
                 <div className="flex justify-center mt-[55px] mb-[55px]">
-                  <button className="rounded-[9px] bg-[#F4511E] px-[80px] md:px-[100px] lg:px-[158px] py-[21.79px] text-white font-inter text-[13px] md:text-[21px] font-medium not-italic leading-[25px] tracking-[0.182px]">
+                  <button className="transition rounded-[9px] bg-[#F4511E] hover:bg-[#dd4415] px-[80px] md:px-[100px] lg:px-[158px] py-[21.79px] text-white font-inter text-[13px] md:text-[21px] font-medium not-italic leading-[25px] tracking-[0.182px]">
                     Add New Property
                   </button>
                 </div>
