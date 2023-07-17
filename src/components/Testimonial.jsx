@@ -6,7 +6,7 @@ export default function Practice() {
       <section className=" mb-32 text-center md:text-left">
         <div className="block rounded-lg  ">
           <div className="flex flex-wrap items-center">
-            <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-3/5">
+            <div className="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-3/5 4xl:w-4/5">
               <div className="relative flex flex-col items-center px-6 py-8 md:px-12 bg-testimonial">
                 <Quotation />
                 <div className="w-full md:w-4/5 mt-[100px]">
@@ -38,7 +38,7 @@ export default function Practice() {
                 </div>
               </div>
             </div>
-            <div className="relative right-0 top-0 w-full block shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-2/5">
+            <div className="relative right-0 top-0 w-full block shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-2/5 4xl:w-1/5">
               <img
                 src="assets/testimonial/cover.jpg"
                 alt="error"

@@ -21,7 +21,7 @@ export default function PropertiesList() {
           </button>
         </div>
         {/* cards */}
-        <div className=" w-full md:w-full lg:w-3/4 mx-auto px-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-y-[60px] gap-x-[100px] ">
+        <div className=" w-full md:w-full lg:w-3/4 mx-auto px-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 4xl:grid-cols-6 gap-y-[60px] gap-x-[100px] ">
           {["image1", "image2", "image3", "image4", "image5", "image6"].map(
             (item, key) => (
               <div
