@@ -105,7 +105,6 @@ export default function PropertiesList() {
                   3
                 </a>
               </li>
-
               <li>
                 <a
                   href="#"

@@ -4,15 +4,15 @@ export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <div className="">
-      <nav className={`border-b w-10/12 md:w-3/4 mx-auto  `}>
+      <nav className={`border-b w-10/12  md:w-10/12 mx-auto  `}>
         <div
           className={` max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4`}
         >
           <a
             href="#"
-            className="cursor-pointer flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+            className="md:w-full md:justify-center lg:w-auto cursor-pointer flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           >
-            <img src="/assets/logo1.png" alt="logo" />
+            <img src="/assets/navbar/logo1.png" alt="logo" />
           </a>
           <button
             type="button"
@@ -56,10 +56,10 @@ export default function Navbar() {
             )}
           </button>
           <div
-            className={`${openMenu ? "hidden" : ""} w-full md:block md:w-auto`}
+            className={`${openMenu ? "hidden" : ""} mt-6 w-full md:block md:w-auto`}
           >
             <ul
-              className={` transition-all duration-300 ease-in space-y-4 md:space-y-0 flex flex-col rounded-lg md:flex-row md:space-x-12 md:mt-0 mt-6 lg:inline-flex md:ml-auto text-white font-dm-sans font-normal not-italic  items-center text-base 
+              className={` transition-all duration-300 ease-in space-y-4 md:space-y-0 flex flex-col rounded-lg md:flex-row md:space-x-10 md:mt-0 mt-6 lg:inline-flex md:ml-auto text-white font-dm-sans font-normal not-italic  items-center text-base 
                 `}
             >
               {["Home", "Landlord", "Tenants", "Contact Us"].map(
@@ -67,7 +67,7 @@ export default function Navbar() {
                   <li key={key}>
                     <a
                       href="#"
-                      className="hover:text-[#F4511E]  transition cursor-pointer md:mr-[56px] text-[20px] md:text-[18px] "
+                      className="hover:text-[#F4511E] transition cursor-pointer md:mr-[56px] text-[20px] md:text-[18px] "
                     >
                       {item}
                     </a>
